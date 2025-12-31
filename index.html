@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body class="bg-[url(./assets/glacier.webp)] min-h-screen flex items-center justify-center">
+
+    <div class="flex flex-col md:flex-row w-[95%] h-[90vh] bg-[#F1F5F9] backdrop-blur-md rounded-2xl shadow-xl overflow-hidden">
+        <aside
+            class="w-full md:w-64 bg-blue-900 text-white flex flex-col p-5 md:p-7 md:h-full h-auto md:flex-shrink-0">
+
+            
+            <div class="mb-5 flex items-center justify-between">
+                <img src="./assets/creative-blue-vector-logo-icon-600nw-1786325216__1_-removebg-preview (1).png"
+                    alt="Logo" class="h-10 w-10 md:h-11 md:w-11">
+                <div class="text-blue-400 flex gap-2">
+                    <i
+                        class="fa-solid fa-user text-[#18368C] bg-[#2947AA] rounded-full py-2 px-4 flex justify-center"></i>
+                    <i
+                        class="fa-solid fa-circle-dot text-[#18368C] bg-[#2947AA] rounded-full py-2 px-4 flex justify-center"></i>
+                </div>
+            </div>
+
+            <!-- User Info -->
+            <div class="flex flex-col items-center mb-6">
+                <img class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gray-300 mb-2"
+                    src="./assets/photo-1633332755192-727a05c4013d.jpeg" alt="User">
+                <p class="text-md md:text-lg font-semibold">Hey Julien!</p>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="flex flex-col gap-2 md:gap-3">
+                <a href="#" class="flex items-center px-3 py-2 rounded-md hover:bg-gradient-to-r from-cyan-600 to-cyan-200">
+                    <i class="fa-regular fa-house text-gray-300 md:text-gray-500"></i>
+                    <span class="ml-2 text-sm md:text-[14px] font-semibold">Home</span>
+                </a>
+                <a href="#" class="flex items-center px-3 py-2 rounded-md hover:bg-gradient-to-r from-cyan-600 to-cyan-200">
+                    <i class="fa-solid fa-book text-gray-300 md:text-gray-500"></i>
+                    <span class="ml-2 text-sm md:text-[14px] font-semibold">Classes</span>
+                </a>
+                <a href="#" class="flex items-center px-3 py-2 rounded-md hover:bg-gradient-to-r from-cyan-600 to-cyan-200">
+                    <i class="fa-regular fa-mobile text-gray-300 md:text-gray-500"></i>
+                    <span class="ml-2 text-sm md:text-[14px] font-semibold">Portals</span>
+                </a>
+                <a href="#" class="flex items-center px-3 py-2 rounded-md hover:bg-gradient-to-r from-cyan-600 to-cyan-200">
+                    <i class="fa-solid fa-graduation-cap text-gray-300 md:text-gray-500"></i>
+                    <span class="ml-2 text-sm md:text-[14px] font-semibold">University name #1</span>
+                </a>
+                <a href="#" class="flex items-center px-3 py-2 rounded-md hover:bg-gradient-to-r from-cyan-600 to-cyan-200">
+                    <i class="fa-solid fa-graduation-cap text-gray-300 md:text-gray-500"></i>
+                    <span class="ml-2 text-sm md:text-[14px] font-semibold">University name #2</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-5 md:p-7 overflow-y-auto">
+            <!-- Search Bar -->
+            <div class="mb-5 md:mb-6">
+                <input type="text" placeholder="Search training"
+                    class="w-full p-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+
+       
+<div class="my-5 flex items-center gap-3 flex-wrap">
+    <span class="text-xs sm:text-sm text-gray-400">In Progress</span>
+    <span class="bg-gray-200 rounded-lg px-3 py-1 text-xs sm:text-sm">12</span>
+</div>
+
+<!-- Cards Section -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+    <!-- Card -->
+    <div class="bg-white rounded-lg shadow hover:shadow-lg transition">
+        <header class="w-full h-12 bg-[#F9FBFC] p-4 flex items-center justify-between rounded-t-lg">
+            <i class="fa-regular fa-user text-blue-400 bg-white rounded-full p-2 flex justify-center shadow"></i>
+            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+        </header>
+        <div class="p-4 sm:p-5">
+            <p class="text-gray-400 text-xs mb-1">GUIDE</p>
+            <h3 class="font-semibold text-gray-800 text-sm sm:text-base">Workramp <br>onboarding — Joel</h3>
+            <p class="text-gray-500 text-xs sm:text-sm mb-2 mt-1">
+                <i class="fa-regular fa-calendar"></i>
+                Due in <b>4 days</b>
+            </p>
+            <hr class="border-gray-200 mt-4">
+            <div class="flex items-center justify-between py-2 text-xs sm:text-sm">
+                <div>
+                    <p class="text-gray-400 font-semibold">#Tasks</p>
+                    <div>29</div>
+                </div>
+                <div class="text-gray-200 font-semibold">|</div>
+                <div>
+                    <p class="text-gray-400 font-semibold">Questions</p>
+                    <div>18</div>
+                </div>
+            </div>
+            <hr class="border-gray-200">
+            <div class="mt-2">
+                <p class="text-xs font-semibold text-black">56% <span class="text-gray-500">completed</span></p>
+                <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                    <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-2 rounded-full" style="width:56%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="bg-white rounded-lg shadow hover:shadow-lg transition">
+        <header class="w-full h-12 bg-[#F9FBFC] p-4 flex items-center justify-between rounded-t-lg">
+            <i class="fa-regular fa-user text-orange-400 bg-white rounded-full p-2 flex justify-center shadow"></i>
+            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+        </header>
+        <div class="p-4 sm:p-5">
+            <p class="text-gray-400 text-xs mb-1">GUIDE</p>
+            <h3 class="font-semibold text-gray-800 text-sm sm:text-base">Corporate pitch <br>certification</h3>
+            <p class="text-gray-500 text-xs sm:text-sm mb-2 mt-1">
+                <i class="fa-regular fa-calendar"></i>
+                Due in <b>4 days</b>
+            </p>
+            <hr class="border-gray-200 mt-4">
+            <div class="flex items-center justify-between py-2 text-xs sm:text-sm">
+                <div>
+                    <p class="text-gray-400 font-semibold">#Tasks</p>
+                    <div>29</div>
+                </div>
+                <div class="text-gray-200 font-semibold">|</div>
+                <div>
+                    <p class="text-gray-400 font-semibold">Questions</p>
+                    <div>18</div>
+                </div>
+            </div>
+            <hr class="border-gray-200">
+            <div class="mt-2">
+                <p class="text-xs font-semibold text-black">56% <span class="text-gray-500">completed</span></p>
+                <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                    <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-2 rounded-full" style="width:56%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition">
+        <header class="w-full h-12 bg-[#F9FBFC] p-4 flex items-center justify-between rounded-t-lg">
+            <i class="fa-regular fa-user text-orange-400 bg-white rounded-full p-2 flex justify-center shadow"></i>
+            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+        </header>
+        <div class="p-4 sm:p-5">
+            <p class="text-gray-400 text-xs mb-1">GUIDE</p>
+            <h3 class="font-semibold text-gray-800 text-sm sm:text-base">Corporate pitch <br>certification</h3>
+            <p class="text-gray-500 text-xs sm:text-sm mb-2 mt-1">
+                <i class="fa-regular fa-calendar"></i>
+                Due in <b>4 days</b>
+            </p>
+            <hr class="border-gray-200 mt-4">
+            <div class="flex items-center justify-between py-2 text-xs sm:text-sm">
+                <div>
+                    <p class="text-gray-400 font-semibold">#Tasks</p>
+                    <div>29</div>
+                </div>
+                <div class="text-gray-200 font-semibold">|</div>
+                <div>
+                    <p class="text-gray-400 font-semibold">Questions</p>
+                    <div>18</div>
+                </div>
+            </div>
+            <hr class="border-gray-200">
+            <div class="mt-2">
+                <p class="text-xs font-semibold text-black">56% <span class="text-gray-500">completed</span></p>
+                <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                    <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-2 rounded-full" style="width:56%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-white rounded-lg shadow hover:shadow-lg transition">
+        <header class="w-full h-12 bg-[#F9FBFC] p-4 flex items-center justify-between rounded-t-lg">
+            <i class="fa-regular fa-user text-blue-400 bg-white rounded-full p-2 flex justify-center shadow"></i>
+            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+        </header>
+        <div class="p-4 sm:p-5">
+            <p class="text-gray-400 text-xs mb-1">GUIDE</p>
+            <h3 class="font-semibold text-gray-800 text-sm sm:text-base">Workramp <br>onboarding — Joel</h3>
+            <p class="text-gray-500 text-xs sm:text-sm mb-2 mt-1">
+                <i class="fa-regular fa-calendar"></i>
+                Due in <b>4 days</b>
+            </p>
+            <hr class="border-gray-200 mt-4">
+            <div class="flex items-center justify-between py-2 text-xs sm:text-sm">
+                <div>
+                    <p class="text-gray-400 font-semibold">#Tasks</p>
+                    <div>29</div>
+                </div>
+                <div class="text-gray-200 font-semibold">|</div>
+                <div>
+                    <p class="text-gray-400 font-semibold">Questions</p>
+                    <div>18</div>
+                </div>
+            </div>
+            <hr class="border-gray-200">
+            <div class="mt-2">
+                <p class="text-xs font-semibold text-black">56% <span class="text-gray-500">completed</span></p>
+                <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                    <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-2 rounded-full" style="width:56%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition">
+        <header class="w-full h-12 bg-[#F9FBFC] p-4 flex items-center justify-between rounded-t-lg">
+            <i class="fa-regular fa-user text-blue-400 bg-white rounded-full p-2 flex justify-center shadow"></i>
+            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+        </header>
+        <div class="p-4 sm:p-5">
+            <p class="text-gray-400 text-xs mb-1">GUIDE</p>
+            <h3 class="font-semibold text-gray-800 text-sm sm:text-base">Workramp <br>onboarding — Joel</h3>
+            <p class="text-gray-500 text-xs sm:text-sm mb-2 mt-1">
+                <i class="fa-regular fa-calendar"></i>
+                Due in <b>4 days</b>
+            </p>
+            <hr class="border-gray-200 mt-4">
+            <div class="flex items-center justify-between py-2 text-xs sm:text-sm">
+                <div>
+                    <p class="text-gray-400 font-semibold">#Tasks</p>
+                    <div>29</div>
+                </div>
+                <div class="text-gray-200 font-semibold">|</div>
+                <div>
+                    <p class="text-gray-400 font-semibold">Questions</p>
+                    <div>18</div>
+                </div>
+            </div>
+            <hr class="border-gray-200">
+            <div class="mt-2">
+                <p class="text-xs font-semibold text-black">56% <span class="text-gray-500">completed</span></p>
+                <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                    <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-2 rounded-full" style="width:56%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition">
+        <header class="w-full h-12 bg-[#F9FBFC] p-4 flex items-center justify-between rounded-t-lg">
+            <i class="fa-regular fa-user text-blue-400 bg-white rounded-full p-2 flex justify-center shadow"></i>
+            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+        </header>
+        <div class="p-4 sm:p-5">
+            <p class="text-gray-400 text-xs mb-1">GUIDE</p>
+            <h3 class="font-semibold text-gray-800 text-sm sm:text-base">Workramp <br>onboarding — Joel</h3>
+            <p class="text-gray-500 text-xs sm:text-sm mb-2 mt-1">
+                <i class="fa-regular fa-calendar"></i>
+                Due in <b>4 days</b>
+            </p>
+            <hr class="border-gray-200 mt-4">
+            <div class="flex items-center justify-between py-2 text-xs sm:text-sm">
+                <div>
+                    <p class="text-gray-400 font-semibold">#Tasks</p>
+                    <div>29</div>
+                </div>
+                <div class="text-gray-200 font-semibold">|</div>
+                <div>
+                    <p class="text-gray-400 font-semibold">Questions</p>
+                    <div>18</div>
+                </div>
+            </div>
+            <hr class="border-gray-200">
+            <div class="mt-2">
+                <p class="text-xs font-semibold text-black">56% <span class="text-gray-500">completed</span></p>
+                <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                    <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-2 rounded-full" style="width:56%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
